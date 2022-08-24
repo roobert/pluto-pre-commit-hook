@@ -1,7 +1,9 @@
 #!/bin/bash
 
 if ! which pluto > /dev/null 2>&1; then
-  echo "Please install pluto: https://pluto.docs.fairwinds.com/installation/"
+  echo ERROR: pluto: command not found
+  echo
+  echo "Please run 'brew install FairwindsOps/tap/pluto' or follow the install instructions here: https://pluto.docs.fairwinds.com/installation/"
   exit 1
 fi
 
