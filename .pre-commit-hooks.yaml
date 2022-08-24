@@ -1,0 +1,6 @@
+-   id: pluto-k8s-api-deprecation
+    name: Deprecated Kubernetes API Notifier
+    description: This hook notifies about deprecated API usage in Kubernetes manifests
+    entry: ./pluto-k8s-api-deprecation.sh
+    language: script
+    types: [yaml]
